@@ -19,7 +19,7 @@ rl.question("", (r) => {
     const R = parseFloat(parseFloat(r).toFixed(2));
     // Calculate the area
     const pi = 3.14159;
-    const A = parseFloat(pi * Math.pow(R, 2)).toFixed(4);
-    console.log("A=" + A);
+    const area = (pi * Math.pow(R, 2)).toFixed(4);
+    console.log("A=" + area);
     rl.close();
 });
