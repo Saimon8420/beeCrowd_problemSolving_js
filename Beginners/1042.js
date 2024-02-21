@@ -18,8 +18,8 @@ rl.question("", (inputs) => {
     inputs = inputs.map(each => parseInt(each));
     const original = [...inputs];
     const sorted = inputs.sort((a, b) => a - b);
-    sorted.map(each => console.log(each));
-    console.log(" ");
-    original.map(each => console.log(each));
+    console.log(sorted.join("\n"));
+    console.log("");
+    console.log(original.join("\n"));
     rl.close();
 });
